@@ -33,9 +33,7 @@ const team = [
 
 
 for(let i=0;i<team.length;i++){
-    for(const property in team[i]){
-        console.log(team[i].name);
-        console.log(team[i].role);
-        console.log(team[i].image);
-    }
+        document.writeln(`Name ${i}:${team[i].name}<br>`);
+        document.writeln(`Role ${i}:${team[i].role}<br>`);
+        document.writeln(`image ${i}:${team[i].image}<br><br>`);
 }
