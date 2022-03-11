@@ -33,7 +33,7 @@ const team = [
 
 
 for(let i=0;i<team.length;i++){
-        document.writeln(`Name ${i}:${team[i].name}<br>`);
-        document.writeln(`Role ${i}:${team[i].role}<br>`);
-        document.writeln(`image ${i}:${team[i].image}<br><br>`);
+    document.writeln(`<img src="img/${team[i].image}"><br>`);
+    document.writeln(`Name ${i+1}:${team[i].name}<br>`);
+    document.writeln(`Role ${i+1}:${team[i].role}<br>`);
 }
