@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(255, 244, 233);
+}
+.card{
+    width: 300px;
+}
+.txt{
+    padding: .6rem 0;
+}
